@@ -1,0 +1,30 @@
+{
+  "name": "arca-de-noe-redesign",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proposta de redesign do website do Centro Veterinário Arca de Noé — PIXART",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx --yes http-server out -p 3000 -c-1",
+    "test:contrast": "node scripts/contrast.mjs",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "preview:bundle": "node scripts/make-portable.mjs",
+    "test:e2e": "node scripts/e2e.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.27",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.35.0",
+    "eslint-config-next": "^15.5.27",
+    "typescript": "^5.9.3"
+  }
+}
