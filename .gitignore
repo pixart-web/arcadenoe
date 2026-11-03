@@ -1,6 +1,7 @@
-node_modules
-.next
-out
-preview
-*.tsbuildinfo
+# A pedido do Tiago, o repositório inclui também node_modules, as pastas de build
+# (.next, out, preview) e os zips de entrega.
+# Exceção: os binários nativos do compilador do Next.js (137 MB cada) excedem o
+# limite de 100 MB por ficheiro do GitHub. São reinstalados com `npm install`.
+node_modules/@next/swc-linux-x64-gnu/next-swc.linux-x64-gnu.node
+node_modules/@next/swc-linux-x64-musl/next-swc.linux-x64-musl.node
 .env*.local
